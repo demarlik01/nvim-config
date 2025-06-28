@@ -233,3 +233,13 @@ keymap.set("n", "<leader>cb", function()
     end)
   )
 end, { desc = "show cursor" })
+
+-- custom settings
+
+-- terminal
+vim.keymap.set('n', '<leader>th', ':15split | terminal<CR>', { desc = 'Horizontal terminal (15 lines)' })
+vim.keymap.set('n', '<leader>tv', ':60vsplit | terminal<CR>', { desc = 'Vertical terminal (60 columns)' })
+
+-- NvimTree
+vim.keymap.set('n', '<leader>nt', ':NvimTreeToggle<CR>', { desc = 'Toggle NvimTree' })
+
