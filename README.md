@@ -168,6 +168,9 @@ Some of the shortcuts I use frequently are listed here. In the following shortcu
 | `<leader>gbn`     | Normal        | Linux/macOS/Win | Create a new branch                                                      |
 | `<leader>gl`      | Normal/Visual | Linux/macOS/Win | Get perm link for current/visually-select lines                          |
 | `<leader>gbr`     | Normal        | macOS           | Browse current git repo in browser                                       |
+| `<leader>th`      | Normal        | macOS           | Horizontal terminal (15 lines)                                           |
+| `<leader>tv`      | Normal        | macOS           | Vertical terminal (60 columns)                                           |
+| `<leader>nt`      | Normal        | macOS           | Toggle NvimTree                                                          |
 | `<leader>gb`      | Visual        | macOS           | Blame current line                                                       |
 | `<F9>`            | Normal        | Linux/macOS/Win | Compile&run current source file (for C++, LaTeX, Lua, Python)            |
 | `<F11>`           | Normal        | Linux/macOS/Win | Toggle spell checking                                                    |
